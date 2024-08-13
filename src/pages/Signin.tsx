@@ -95,7 +95,7 @@ const Signin = () => {
             <h1 className="text-2xl  font-mono font-bold text-slate-50  mb-8">
             Open the door to endless possibilities. Start your blogging journey with our application and let your words light up the digital universe!
             </h1>
-            <p className="text-xl text-slate-50 mb-2 font-mono ">Mohit Kumar</p>
+            <p className="text-xl text-slate-50 mb-2 font-mono ">Harsh Mishra</p>
             <p className="text-slate-50 text-xl font-mono ">Passionate web developer, creating digital experiences</p>
           </div>
         </div>
