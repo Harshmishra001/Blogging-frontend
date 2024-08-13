@@ -113,7 +113,7 @@ const Signup = () => {
             <h1 className="text-2xl  font-mono font-bold text-slate-50  mb-8">
               Step into a world of infinite possibilities. Launch your blogging journey with our app and let your words shine like stars in the vast digital sky!
             </h1>
-            <p className="text-xl text-slate-50 mb-2 font-mono ">Mohit Kumar</p>
+            <p className="text-xl text-slate-50 mb-2 font-mono ">Harsh Mishra</p>
             <p className="text-slate-50 text-xl font-mono ">Passionate web developer, creating digital experiences</p>
           </div>
         </div>
