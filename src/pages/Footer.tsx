@@ -1,13 +1,13 @@
 const Footer = () => {
   return (
-    <footer className="bg-sky-950 p-4">
+    <footer className="bg-black p-4">
       <div className="container mx-auto flex items-center justify-between">
         <div className="text-slate-50 font-serif">
-          <p>&copy; {new Date().getFullYear()} BlogNest</p>
+          <p>&copy; {new Date().getFullYear()} 𝑮𝒆𝒏𝑽𝒊𝒃𝒆𝑺𝒄𝒓𝒊𝒑𝒕</p>
           <p>All rights reserved.</p>
         </div>
         <div className="text-slate-50 font-serif">
-          <p>Made by - Harsh Mishra</p>
+          <p>𝙼𝚊𝚍𝚎 𝚋𝚢 - 𝙷𝚊𝚛𝚜𝚑 𝙼𝚒𝚜𝚑𝚛𝚊</p>
         </div>
         <div className="flex justify-between space-x-6">
           <a href="https://github.com/Harshmishra001">
@@ -18,7 +18,7 @@ const Footer = () => {
               </g>
             </svg>
           </a>
-          <a href="https://www.linkedin.com/in/harsh-mishra-4597a3254/">
+          <a href="https://www.linkedin.com/in/harsh-mishra001/">
             <svg enableBackground="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xmlns="http://www.w3.org/2000/svg">
               <g>
                 <circle clipRule="evenodd" cx="16" cy="16" fill="#007BB5" fillRule="evenodd" r="16"/>

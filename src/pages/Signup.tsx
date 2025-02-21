@@ -42,11 +42,11 @@ const Signup = () => {
       ) : (
         <>
         <div className="flex flex-col justify-center px-12 w-1/2">
-        <div className="border-2 border-neutral-300 w-[450px] shadow-2xl rounded-xl p-8 mx-auto ">
-  <h1 className="text-3xl font-bold text-center text-sky-950">Create an account</h1>
+        <div className="border-2 border-gray-700 focus:border-pink-600 w-[450px] shadow-2xl rounded-xl p-8 mx-auto  bg-gray-400">
+  <h1 className="text-3xl font-bold text-center text-black">𝕮𝖗𝖊𝖆𝖙𝖊 𝖆𝖓 𝖆𝖈𝖈𝖔𝖚𝖓𝖙</h1>
   <form className="mt-6 space-y-4" onSubmit={handleRequest}>
     <div className="mb-4">
-      <label className="block text-lg font-medium text-sky-950">Username</label>
+      <label className="block text-lg font-medium text-black">𝖀𝖘𝖊𝖗𝖓𝖆𝖒𝖊</label>
       <input
         type="text"
         id="username"
@@ -63,7 +63,7 @@ const Signup = () => {
 />
     </div>
     <div className="mb-4">
-      <label className=" text-lg font-medium text-sky-950">Email</label>
+      <label className=" text-lg font-medium text-black">𝕰𝖒𝖆𝖎𝖑</label>
       <input
         type="email"
         id="email"
@@ -80,7 +80,7 @@ const Signup = () => {
       />
     </div>
     <div className="mb-6">
-      <label className=" text-lg font-medium text-sky-950">Password</label>
+      <label className=" text-lg font-medium text-black">𝕻𝖆𝖘𝖘𝖜𝖔𝖗𝖉</label>
       <input
         type="password"
         id="password"
@@ -98,24 +98,24 @@ const Signup = () => {
     </div>
     <button
       type="submit"
-      className="w-full py-2 px-3 mt-8 font-bold rounded-md  text-slate-50 bg-sky-950 hover:bg-sky-800 text-lg" >
+      className="w-full py-2 px-3 mt-8 font-bold rounded-md  text-slate-50 bg-black hover:bg-gray-500 text-lg" >
       Sign Up
     </button>
-    <p className="mt-2 text-xl font-medium  text-center text-sky-950">
-    Already have an account? <a href="/signin" className="text-blue-900 font-bold hover:underline">Signin</a>
+    <p className="mt-2 text-xl font-medium  text-center text-white">
+    Already have an account? <a href="/signin" className="text-black font-bold hover:underline">𝕊𝕚𝕘𝕟𝕚𝕟</a>
   </p>
   </form>
 </div>
 </div>
   
-        <div className="flex-1 flex justify-center items-center bg-sky-950 w-1/2">
-          <div className="max-w-md">
-            <h1 className="text-2xl  font-mono font-bold text-slate-50  mb-8">
-              Step into a world of infinite possibilities. Launch your blogging journey with our app and let your words shine like stars in the vast digital sky!
-            </h1>
-            <p className="text-xl text-slate-50 mb-2 font-mono ">Harsh Mishra</p>
-            <p className="text-slate-50 text-xl font-mono ">Passionate web developer, creating digital experiences</p>
-          </div>
+        <div className="flex-1 flex justify-center items-center bg-white w-1/2">
+        <div className="flex-1">
+        <img
+          src="https://images3.alphacoders.com/171/thumb-1920-171435.jpg"
+          alt="Blog related"
+          className="max-w-full h-auto lg:h-full"
+        />
+      </div>
         </div>
         </>)}
       </div>
