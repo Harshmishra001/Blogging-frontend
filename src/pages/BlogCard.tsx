@@ -63,14 +63,14 @@ const BlogCard: React.FC<BlogCardProps> = ({ id, author, title,  date, content, 
 
   return (
     <div className="flex my-4 justify-center">
-      <div className="border-4 border-sky-950 shadow-lg shadow-sky-800 rounded-lg w-3/4 mt-2 p-4">
+      <div className="border-4 border-black shadow-lg shadow-gray-400 rounded-lg w-3/4 mt-2 p-4">
         <div className="flex justify-between items-center mb-1">
           <div className="flex items-center space-x-2 text-sm text-gray-500">
-            <div className="relative inline-flex items-center justify-center w-10 h-10 overflow-hidden bg-sky-950 rounded-full">
+            <div className="relative inline-flex items-center justify-center w-10 h-10 overflow-hidden bg-black rounded-full">
               <span className="font-medium font-serif text-xl text-slate-50">{author[0].toUpperCase()}</span>
             </div>
-            <span className="font-serif font-bold text-sky-950 text-xl">{author.toUpperCase()}</span>
-            <span className="pl-2 text-sky-950">{formatDistanceToNow(new Date(date), { addSuffix: true })}
+            <span className="font-serif font-bold text-black text-xl">{author.toUpperCase()}</span>
+            <span className="pl-2 text-black">{formatDistanceToNow(new Date(date), { addSuffix: true })}
             </span>
           </div>
 
@@ -103,13 +103,13 @@ const BlogCard: React.FC<BlogCardProps> = ({ id, author, title,  date, content, 
           </div>
         </div>
 
-        <h2 className="text-2xl font-bold text-center font-serif text-sky-950 mb-1">{title.toUpperCase()}</h2>
+        <h2 className="text-2xl font-bold text-center font-serif text-black mb-1">{title.toUpperCase()}</h2>
         <p className="text-gray-700 font-mono mb-2">{ more?(content.slice(0, 300) + '  ...'):(content)}</p>
         <div className='flex justify-between'>
-        <span className="font-serif text-sky-950">{Math.ceil(content.length / 200)} min read</span>
+        <span className="font-serif text-black">{Math.ceil(content.length / 200)} min read</span>
         <button 
         onClick={handleMore}
-        className='py-2 px-2 mb-2  rounded-md font-serif text-slate-50 bg-sky-950 hover:bg-sky-800 text-lg'>{more?("Show More"):("Show Less")}</button>
+        className='py-2 px-2 mb-2  rounded-md font-serif text-slate-50 bg-black hover:bg-gray-500 text-lg'>{more?("Show More"):("Show Less")}</button>
         </div>
       </div>
     </div>
