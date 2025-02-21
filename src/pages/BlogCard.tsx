@@ -15,6 +15,7 @@ interface BlogCardProps {
   authorId:number;
 }
 
+
 const BlogCard: React.FC<BlogCardProps> = ({ id, author, title,  date, content, authorId }) => {
   const [isCopied, setIsCopied] = useState(false);
   const [isDeleted, setIsDeleted] = useState(false);
