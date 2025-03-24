@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="bg-black p-4">
       <div className="container mx-auto flex items-center justify-between">
         <div className="text-slate-50 font-serif">
-          <p>&copy; {new Date().getFullYear()} 𝑮𝒆𝒏𝑽𝒊𝒃𝒆𝑺𝒄𝒓𝒊𝒑𝒕</p>
+          <p>&copy; {new Date().getFullYear()} Blognest</p>
           <p>All rights reserved.</p>
         </div>
         <div className="text-slate-50 font-serif">

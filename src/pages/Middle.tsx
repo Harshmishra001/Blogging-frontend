@@ -9,10 +9,10 @@ const Middle = () => {
   return (
     <div className="flex flex-col lg:flex-row flex-1 justify-between bg-black">
       <div className="flex-1 px-8">
-        <h1 className="text-7xl font-serif text-slate-50 pt-10">ℙ𝕖𝕠𝕡𝕝𝕖'𝕤</h1>
-        <h1 className="text-7xl font-serif text-slate-50">𝕖𝕩𝕡𝕖𝕣𝕚𝕖𝕟𝕔𝕖𝕤 & 𝕚𝕟𝕤𝕚𝕘𝕙𝕥𝕤</h1>
+        <h1 className="text-7xl font-serif text-slate-50 pt-10">𝗣𝗲𝗼𝗽𝗹𝗲'𝘀</h1>
+        <h1 className="text-7xl font-serif text-slate-50"> 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲𝘀 & 𝗶𝗻𝘀𝗶𝗴𝗵𝘁𝘀</h1>
         <p className="text-2xl text-orange-600 font-serif pt-6">       
-             𝑨 𝒔𝒑𝒂𝒄𝒆 𝒕𝒐 𝒆𝒙𝒑𝒍𝒐𝒓𝒆,𝒆𝒙𝒑𝒓𝒆𝒔𝒔,𝒂𝒏𝒅 𝒈𝒓𝒐𝒘 𝒚𝒐𝒖𝒓 𝒌𝒏𝒐𝒘𝒍𝒆𝒅𝒈𝒆
+        A platform for reading, writing, and enriching your insights.
         </p>
         <br />
         <div className="relative">
