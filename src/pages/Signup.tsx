@@ -111,7 +111,7 @@ const Signup = () => {
         <div className="flex-1 flex justify-center items-center bg-white w-1/2">
         <div className="flex-1">
         <img
-          src="https://images3.alphacoders.com/171/thumb-1920-171435.jpg"
+          src="https://krystianscience.com/wp-content/uploads/2015/06/robot-1024x5761.jpg?w=300&h=259"
           alt="Blog related"
           className="max-w-full h-auto lg:h-full"
         />
