@@ -42,10 +42,10 @@ const Signin = () => {
         <>
         <div className="flex flex-col justify-center px-12 w-1/2">
         <div className="border-2 border-gray-700 focus:border-pink-600 w-[450px] shadow-2xl rounded-xl p-8 mx-auto bg-gray-400">
-    <h1 className="text-3xl font-bold text-center text-black">𝕷𝖔𝖌𝖎𝖓 𝖎𝖓𝖙𝖔 𝖆𝖈𝖈𝖔𝖚𝖓𝖙</h1>
+    <h1 className="text-3xl font-bold text-center text-black">Login Into Account</h1>
     <form className="mt-6 space-y-4" onSubmit={handleRequest}>
     <div className="mb-4">
-      <label className=" text-lg font-medium text-black">𝕰𝖒𝖆𝖎𝖑</label>
+      <label className=" text-lg font-medium text-black">Email</label>
       <input
         type="email"
         id="email"
@@ -62,7 +62,7 @@ const Signin = () => {
       />
     </div>
     <div className="mb-6">
-      <label className=" text-lg font-medium text-black">𝕻𝖆𝖘𝖘𝖜𝖔𝖗𝖉</label>
+      <label className=" text-lg font-medium text-black">Password</label>
       <input
         type="password"
         id="password"
@@ -84,7 +84,7 @@ const Signin = () => {
       Sign In
     </button>
     <p className="mt-2 text-xl font-medium  text-center text-white ">
-    Does not have an account? <a href="/signup" className="text-black font-bold hover:underline">𝕊𝕚𝕘𝕟𝕦𝕡</a>
+    Does not have an account? <a href="/signup" className="text-black font-bold hover:underline">Signup</a>
   </p>
   </form>
 </div>

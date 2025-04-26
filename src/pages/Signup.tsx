@@ -43,10 +43,10 @@ const Signup = () => {
         <>
         <div className="flex flex-col justify-center px-12 w-1/2">
         <div className="border-2 border-gray-700 focus:border-pink-600 w-[450px] shadow-2xl rounded-xl p-8 mx-auto  bg-gray-400">
-  <h1 className="text-3xl font-bold text-center text-black">𝕮𝖗𝖊𝖆𝖙𝖊 𝖆𝖓 𝖆𝖈𝖈𝖔𝖚𝖓𝖙</h1>
+  <h1 className="text-3xl font-bold text-center text-black">Create An Account</h1>
   <form className="mt-6 space-y-4" onSubmit={handleRequest}>
     <div className="mb-4">
-      <label className="block text-lg font-medium text-black">𝖀𝖘𝖊𝖗𝖓𝖆𝖒𝖊</label>
+      <label className="block text-lg font-medium text-black">Username</label>
       <input
         type="text"
         id="username"
@@ -63,7 +63,7 @@ const Signup = () => {
 />
     </div>
     <div className="mb-4">
-      <label className=" text-lg font-medium text-black">𝕰𝖒𝖆𝖎𝖑</label>
+      <label className=" text-lg font-medium text-black">Email</label>
       <input
         type="email"
         id="email"
@@ -80,7 +80,7 @@ const Signup = () => {
       />
     </div>
     <div className="mb-6">
-      <label className=" text-lg font-medium text-black">𝕻𝖆𝖘𝖘𝖜𝖔𝖗𝖉</label>
+      <label className=" text-lg font-medium text-black">Password</label>
       <input
         type="password"
         id="password"
@@ -102,7 +102,7 @@ const Signup = () => {
       Sign Up
     </button>
     <p className="mt-2 text-xl font-medium  text-center text-white">
-    Already have an account? <a href="/signin" className="text-black font-bold hover:underline">𝕊𝕚𝕘𝕟𝕚𝕟</a>
+    Already have an account? <a href="/signin" className="text-black font-bold hover:underline">Signin</a>
   </p>
   </form>
 </div>
